@@ -1,0 +1,132 @@
+CRITICAL - 2024-02-12 16:07:16 --> ErrorException: Undefined variable $page
+in APPPATH\Views\v_template.php on line 161.
+ 1 APPPATH\Views\v_template.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_template.php', 161)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('v_template')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 16:59:08 --> ParseError: syntax error, unexpected token "=>"
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('admin', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('admin')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 22:40:27 --> ErrorException: Undefined property: App\Controllers\Produk::$ModelProduk
+in APPPATH\Controllers\Produk.php on line 18.
+ 1 APPPATH\Controllers\Produk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$ModelProduk', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Controllers\\Produk.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 22:41:03 --> ErrorException: Undefined property: App\Controllers\Produk::$ModelProduk
+in APPPATH\Controllers\Produk.php on line 18.
+ 1 APPPATH\Controllers\Produk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$ModelProduk', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Controllers\\Produk.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 22:42:00 --> ErrorException: Undefined property: App\Controllers\Produk::$ModelKategori
+in APPPATH\Controllers\Produk.php on line 19.
+ 1 APPPATH\Controllers\Produk.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$ModelKategori', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Controllers\\Produk.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 22:45:20 --> ErrorException: Undefined property: App\Controllers\Produk::$ModelProduk
+in APPPATH\Controllers\Produk.php on line 18.
+ 1 APPPATH\Controllers\Produk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$ModelProduk', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Controllers\\Produk.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 22:46:30 --> ErrorException: Undefined property: App\Controllers\Produk::$ModelProduk
+in APPPATH\Controllers\Produk.php on line 18.
+ 1 APPPATH\Controllers\Produk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$ModelProduk', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Controllers\\Produk.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 22:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 22:51:21 --> ErrorException: Undefined variable $satuan
+in APPPATH\Views\v_satuan.php on line 33.
+ 1 APPPATH\Views\v_satuan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $satuan', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_satuan.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_satuan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_satuan', [], true)
+ 5 APPPATH\Views\v_template.php(152): view('v_satuan')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Satuan.php(19): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Satuan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 22:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 22:53:25 --> ErrorException: Undefined variable $id_satuan
+in APPPATH\Views\v_satuan.php on line 33.
+ 1 APPPATH\Views\v_satuan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_satuan', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_satuan.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_satuan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_satuan', [], true)
+ 5 APPPATH\Views\v_template.php(152): view('v_satuan')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Satuan.php(19): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Satuan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 23:03:58 --> ErrorException: Undefined property: App\Controllers\Produk::$ModelProduk
+in APPPATH\Controllers\Produk.php on line 18.
+ 1 APPPATH\Controllers\Produk.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$ModelProduk', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Controllers\\Produk.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 23:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 23:04:06 --> ErrorException: Undefined variable $kategori
+in APPPATH\Views\v_kategori.php on line 33.
+ 1 APPPATH\Views\v_kategori.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_kategori.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_kategori', [], true)
+ 5 APPPATH\Views\v_template.php(152): view('v_kategori')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Kategori.php(19): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kategori->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-12 23:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-12 23:04:12 --> ErrorException: Undefined variable $id_satuan
+in APPPATH\Views\v_satuan.php on line 33.
+ 1 APPPATH\Views\v_satuan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_satuan', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_satuan.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_satuan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_satuan', [], true)
+ 5 APPPATH\Views\v_template.php(152): view('v_satuan')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Satuan.php(19): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Satuan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 23:04:18 --> ErrorException: Undefined property: App\Controllers\User::$ModelUser
+in APPPATH\Controllers\User.php on line 19.
+ 1 APPPATH\Controllers\User.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$ModelUser', 'C:\\xamppp\\htdocs\\kasircake-ci4\\app\\Controllers\\User.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
